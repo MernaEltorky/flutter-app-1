@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -48,7 +49,7 @@ class AppRun extends StatelessWidget {
                         color: Color.fromARGB(255, 134, 198, 137),
                       ),
                       Container(
-                        width: 20,
+                        width: 15,
                         height: 30,
                         color: Color.fromARGB(255, 134, 198, 137),
                       ),
@@ -121,9 +122,29 @@ class AppRun extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Container(
-                    height: 80,
-                    color: Color.fromARGB(255, 243, 66, 55),
+                  Row(
+                    children: [
+                      Container(
+                        height: 80,
+                        width: 20,
+                        color: Color.fromARGB(255, 243, 66, 55),
+                      ),
+                      Container(
+                        height: 60,
+                        width: 20,
+                        color: Color.fromARGB(255, 243, 66, 55),
+                      ),
+                      Container(
+                        height: 40,
+                        width: 20,
+                        color: Color.fromARGB(255, 243, 66, 55),
+                      ),
+                      Container(
+                        height: 20,
+                        width: 20,
+                        color: Color.fromARGB(255, 243, 66, 55),
+                      ),
+                    ],
                   ),
                   Container(
                     height: 80,
@@ -143,13 +164,55 @@ class AppRun extends StatelessWidget {
                     height: 80,
                     color: Color.fromARGB(255, 102, 59, 181),
                   ),
-                  Container(
-                    height: 80,
-                    color: Color.fromARGB(255, 102, 59, 181),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Container(
+                        height: 30,
+                        width: 100,
+                        color: Color.fromARGB(255, 102, 59, 181),
+                      ),
+                      Container(
+                        height: 30,
+                        width: 60,
+                        color: Color.fromARGB(255, 102, 59, 181),
+                      ),
+                      Container(
+                        height: 30,
+                        width: 40,
+                        color: Color.fromARGB(255, 102, 59, 181),
+                      ),
+                      Container(
+                        height: 30,
+                        width: 15,
+                        color: Color.fromARGB(255, 102, 59, 181),
+                      ),
+                    ],
                   ),
-                  Container(
-                    height: 80,
-                    color: Color.fromARGB(255, 102, 59, 181),
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Container(
+                        height: 80,
+                        width: 20,
+                        color: Color.fromARGB(255, 102, 59, 181),
+                      ),
+                      Container(
+                        height: 60,
+                        width: 20,
+                        color: Color.fromARGB(255, 102, 59, 181),
+                      ),
+                      Container(
+                        height: 40,
+                        width: 20,
+                        color: Color.fromARGB(255, 102, 59, 181),
+                      ),
+                      Container(
+                        height: 15,
+                        width: 20,
+                        color: Color.fromARGB(255, 102, 59, 181),
+                      ),
+                    ],
                   ),
                   Container(
                     height: 80,
