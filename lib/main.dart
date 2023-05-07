@@ -28,19 +28,61 @@ class AppRun extends StatelessWidget {
                   Container(
                     height: 80,
                     color: Color.fromARGB(255, 134, 198, 137),
-                  ),
+                  ), //container1
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Container(
+                        width: 100,
+                        height: 30,
+                        color: Color.fromARGB(255, 134, 198, 137),
+                      ),
+                      Container(
+                        width: 60,
+                        height: 30,
+                        color: Color.fromARGB(255, 134, 198, 137),
+                      ),
+                      Container(
+                        width: 40,
+                        height: 30,
+                        color: Color.fromARGB(255, 134, 198, 137),
+                      ),
+                      Container(
+                        width: 20,
+                        height: 30,
+                        color: Color.fromARGB(255, 134, 198, 137),
+                      ),
+                    ],
+                  ), //container2
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Container(
+                        width: 100,
+                        height: 20,
+                        color: Color.fromARGB(255, 134, 198, 137),
+                      ),
+                      Container(
+                        width: 60,
+                        height: 20,
+                        color: Color.fromARGB(255, 134, 198, 137),
+                      ),
+                      Container(
+                        width: 40,
+                        height: 20,
+                        color: Color.fromARGB(255, 134, 198, 137),
+                      ),
+                      Container(
+                        width: 15,
+                        height: 20,
+                        color: Color.fromARGB(255, 134, 198, 137),
+                      ),
+                    ],
+                  ), //container3
                   Container(
                     height: 80,
                     color: Color.fromARGB(255, 134, 198, 137),
-                  ),
-                  Container(
-                    height: 80,
-                    color: Color.fromARGB(255, 134, 198, 137),
-                  ),
-                  Container(
-                    height: 80,
-                    color: Color.fromARGB(255, 134, 198, 137),
-                  ),
+                  ), //container4
                 ],
               ),
             ),
@@ -55,9 +97,29 @@ class AppRun extends StatelessWidget {
                     height: 80,
                     color: Color.fromARGB(255, 243, 66, 55),
                   ),
-                  Container(
-                    height: 80,
-                    color: Color.fromARGB(255, 243, 66, 55),
+                  Column(
+                    children: [
+                      Container(
+                        width: 100,
+                        height: 30,
+                        color: Color.fromARGB(255, 243, 66, 55),
+                      ),
+                      Container(
+                        width: 60,
+                        height: 30,
+                        color: Color.fromARGB(255, 243, 66, 55),
+                      ),
+                      Container(
+                        width: 40,
+                        height: 30,
+                        color: Color.fromARGB(255, 243, 66, 55),
+                      ),
+                      Container(
+                        width: 15,
+                        height: 30,
+                        color: Color.fromARGB(255, 243, 66, 55),
+                      ),
+                    ],
                   ),
                   Container(
                     height: 80,
